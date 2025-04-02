@@ -1,8 +1,6 @@
 # Car_Resale_Dataset_Cleaning_Project
 
-## Table of Contents
-- [Data Wrangling](#data-wrangling)
-- [Complete Query](#complete-query)
+- [To Complete Query](#complete-query)
 
 ## 📚 About Data
 
