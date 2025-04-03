@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f32fbf4-a4a9-48e0-9593-0930f34a58fe)# Car_Resale_Dataset_Cleaning_Project
+# Car_Resale_Dataset_Cleaning_Project
 
 ## Table of Contents
 - [Data Wrangling Step-By-Step](#data-wrangling)
