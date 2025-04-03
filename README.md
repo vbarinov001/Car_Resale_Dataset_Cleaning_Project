@@ -214,10 +214,8 @@ FROM
 
 ## Exploratory Data Analysis
 
-
-<details open>
-<summary>YOU MUST USE the With Statement before all EDA QUERIES</summary>
-<br>
+###YOU MUST USE the With Statement before all EDA QUERIES
+```sql
 ALTER TABLE car_sales_india RENAME COLUMN transmission_type TO Transmission;
     ALTER TABLE car_sales_india RENAME COLUMN city TO Car_Location_City;
     ALTER TABLE car_sales_india RENAME COLUMN registered_year TO Registered_Year;
@@ -283,7 +281,7 @@ WITH cleaned_data as (
     FROM
         car_sales_india
 )
-</details>
+```
 
 
 -- 1. Total cars analyzed
