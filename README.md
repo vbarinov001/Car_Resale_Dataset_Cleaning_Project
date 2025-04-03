@@ -132,23 +132,28 @@ FROM
 
 ### Table Column Name Alterations
 ```sql
-ALTER TABLE car_sales_india
-RENAME COLUMN transmission_type TO Transmission
-RENAME COLUMN city TO Car_Location_City
-RENAME COLUMN registered_year TO Registered_Year
-RENAME COLUMN seats TO Seats
-RENAME COLUMN body_type TO Body_Type;
+ALTER TABLE car_sales_india RENAME COLUMN transmission_type TO Transmission;
+ALTER TABLE car_sales_india RENAME COLUMN city TO Car_Location_City;
+ALTER TABLE car_sales_india RENAME COLUMN registered_year TO Registered_Year;
+ALTER TABLE car_sales_india RENAME COLUMN seats TO Seats;
+ALTER TABLE car_sales_india RENAME COLUMN body_type TO Body_Type;
 ```
 
 ## Complete Query
 ```sql
-ALTER TABLE car_sales_india
-RENAME COLUMN transmission_type TO Transmission
-RENAME COLUMN city TO Car_Location_City
-RENAME COLUMN registered_year TO Registered_Year
-RENAME COLUMN seats TO Seats
-RENAME COLUMN body_type TO Body_Type;
+ALTER TABLE car_sales_india RENAME COLUMN transmission_type TO Transmission;
+ALTER TABLE car_sales_india RENAME COLUMN city TO Car_Location_City;
+ALTER TABLE car_sales_india RENAME COLUMN registered_year TO Registered_Year;
+ALTER TABLE car_sales_india RENAME COLUMN seats TO Seats;
+ALTER TABLE car_sales_india RENAME COLUMN body_type TO Body_Type;
+
+
 SELECT
+    Transmission, 
+    Car_Location_City,
+    Registered_Year,
+    Seats,
+    Body_Type,
     SUBSTR(full_name, 1, 4) AS Year,
     TRIM(SUBSTR(full_name, 6, INSTR(SUBSTR(full_name, 6), ' ') - 1)) AS Make,
     TRIM(SUBSTR(full_name, 
@@ -201,5 +206,6 @@ SELECT
 FROM
     car_sales_india;
 ```
-![image](https://github.com/user-attachments/assets/89830444-ef8f-43ba-9a99-c71d401806e1)
+![image](https://github.com/user-attachments/assets/18fa0ac6-3858-428b-b41a-e15a22401a6f)
+
 
