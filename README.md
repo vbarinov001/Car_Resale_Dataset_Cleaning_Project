@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Data Wrangling Step-By-Step](#data-wrangling)
-- [To Complete Cleaning Query](#complete-cleaned-query)
+- [Complete Cleaning Query](#complete-cleaning-query)
 - [Exploratory Analysis](#exploratory-data-analysis)
 
 ## 📚 About Data
